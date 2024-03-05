@@ -1,0 +1,35 @@
+.ra {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    margin-top: 10px;
+    
+}
+.dd {
+    border: 3px solid #f4f4f4;
+    background-color: #ffffff;
+    height: 280px;
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    flex-direction: column
+}
+.icc{
+    color: #007e6a;
+
+
+}
+.serv {
+    text-align: center;
+    margin-top: 10px;
+    font-family: fangsong;
+    font-size: 46px;
+}
+@media only screen and (max-width: 600px) {
+   
+}

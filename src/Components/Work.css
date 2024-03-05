@@ -1,0 +1,51 @@
+.desk{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.deskpc{
+    height: 100%;
+    width: 100%;
+}
+.aa{
+
+    height: 400px;
+    width: 400px;
+}
+.office{
+    
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+.aa img:hover {
+   
+    opacity: 0.6;
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ 
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+.ss{
+  
+   margin-top: 35px;
+    row-gap: 40px;
+}
+
+.aa{
+
+    height: 200px;
+    width: 400px;
+}
+}

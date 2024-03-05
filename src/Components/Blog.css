@@ -1,0 +1,38 @@
+.ff{
+    background-color: khaki;
+    height: 300px;
+    width: 400px;
+}
+.imgggg{
+   height: 100%; 
+   width: 100%;
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.boxx{
+
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+
+
+/* <h2 style={{ fontSize: "34px", color: "blue" }}>Graphic Design Work</h2>
+                    <h3>Freelance / Hobby</h3>
+                    <button className='checkout'>Check Out My Shop</button>
+                </div>
+                <div className='intrest' style={{ fontSize: "24px", color: "blue" }}>
+                    <p className='fonttt' style={{marginLeft:"-173px"}} >My interest in graphic design has increasingly risen over time <br />
+                        with my experience creating website and social content  for <br />
+                        The Sideline Post and other miscellaneous projects. In July of 2021, <br />
+                        I opened an Etsy shop to begin selling some of my digital work. <br />
+                        The shop currently holds various music posters of my favorite artists <br />
+                        among internship/job resources such as resume and <br /> cover letter templates
+                        that I plan to expand upon.</p> */

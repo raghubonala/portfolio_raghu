@@ -1,0 +1,147 @@
+.footer {
+    row-gap: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #061f24;
+    color: white;
+   
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    
+   
+    column-gap: 32px;
+    flex-wrap: wrap;
+}
+.rounded{
+    width: 38px;
+    height: 38px;
+    transition: 0.5s all;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounded:hover {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #007e6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaaaaa;
+}
+.three {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    margin:24px;
+}
+
+.num {
+    display: flex;
+    column-gap: 8px;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+}
+.da {
+    color: #b9b5b1;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.nula{
+    color: #b9b5b1;
+}
+
+.da span {
+    color: #007e6a;
+    float: left;
+    transition: 0.5s all;
+}
+
+.da span:hover {
+    color: white;
+    background: #061f24;
+    cursor: pointer;
+}
+.last {
+    display: flex;
+    column-gap: 35px;
+}
+
+.num span {
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: math;
+}
+
+.num ion-icon.md.hydrated {
+    color: #aaaaaa;
+}
+.num ion-icon.md.hydrated:hover {
+    transition: 0.5s all;
+    color: #007e6a;
+}
+.num span:hover {
+    transition: 0.5s all;
+    color: #007e6a;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: #061f24;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+
+    .num {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.da{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+    .three {
+        display: flex;
+        flex-direction: column;
+  
+        justify-content: center;
+
+    }
+
+    .last {
+        display: flex;
+        flex-direction: row;
+        row-gap: 40px;
+        align-items: center;
+        justify-content: center;
+        height: 95px;
+    }
+}

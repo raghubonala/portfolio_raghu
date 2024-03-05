@@ -1,0 +1,105 @@
+.form {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 0 0 0;
+    row-gap: 30px;
+    margin: 34px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.place {
+    width: 700px;
+    height: 60px;
+padding-left: 24px;
+ 
+}
+
+.mess {
+
+    padding-left: 24px;
+
+}
+.form h1  {
+    margin: 12px;
+    font-family: fangsong;
+    font-size: 46px;
+}
+
+.subb {
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+    background-color: #007e6a;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+.loca {
+    
+    height: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.locat {
+    width: 98%;
+    height: 100%;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.dfs{
+    text-align: center;
+   margin-bottom: -26px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .place {
+        width: 90%;
+    }
+
+    .mess {
+        width: 90%;
+    }
+
+    .loca {
+        height: 229px;
+        width: 350px;
+    }
+    .locat{
+        border: 2px solid green;
+        width: 100%;
+    }
+
+    .conta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        padding: 10px;
+        width: 350px;
+
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+   
+}

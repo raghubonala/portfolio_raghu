@@ -1,0 +1,115 @@
+.about {
+   
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 62px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.dea {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: auto;
+    align-items: center;
+    width: 650px;
+   
+}
+.uiux{
+    margin-top:50px;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.eror_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:140px;
+}
+.error h4 {
+    text-align: center;
+    color: #007e6a;
+    font-size: 42px;
+    padding: 55px;
+    margin: 42px;
+}
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family: fangsong;
+    margin-top: 32px;
+}
+
+ h4, h5 {
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.photodiv{
+    height: 650px;
+padding: 10px;
+
+}
+.photo{
+height: 100%;
+border-radius: 10px;
+}
+.ek {
+    height: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.ekek {
+    width: 60%;
+    height: 5px;
+    background-color: #007e6a;
+}
+.ekekdo{
+    height: 5px;
+    background-color: #007e6a;
+    width: 80%;
+}
+.lin{
+    background-color: black;
+    color: black;
+    height: 2px;
+}
+
+
+@media only screen and (max-width: 600px){
+   .about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  box-shadow: none;
+  align-items: center;
+   } 
+   .photo{
+    width: 100%;
+
+   }
+   
+   .photodiv{
+    height: 350px;
+    width: 260px;
+   }
+  .divtwo{
+    display: flex;
+    flex-direction: column;
+ 
+
+  }
+
+  .dea {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: auto;
+    align-items: center;
+    width: 255px;}
+}

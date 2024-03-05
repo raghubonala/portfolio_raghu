@@ -1,0 +1,74 @@
+
+/* CSS */
+.button-1 {
+  background: black;
+  width: 190px;
+  color: white;
+  border-radius: 8px;
+  padding:6px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color:red;
+}
+
+.project {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  column-gap: 12px;
+  flex-direction: column;
+  row-gap: 12px;
+  padding:24px;
+}
+.row_r {
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    padding: 28px;
+    column-gap: 48px;
+    row-gap: 28px;
+}
+.roow_min {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+}
+.roow_min h1 {
+  color: blue;
+  font-family: auto;
+}
+p {
+  margin: 12px;
+    margin-bottom: 1rem;
+    font-family: none;
+    font-size: 18px;
+
+}
+.roow_min p {
+  font-family: ui-rounded;
+}
+
+.roow_min h3 {
+  color: blue;
+  font-family: auto;
+}
+.my_title {
+  text-align: center;
+    margin-top: 10px;
+    font-family: fangsong;
+    font-size: 46px;
+    margin:18px;
+}
+@media only screen and (max-width: 600px){
+  .row_r {
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    padding: 28px;
+    column-gap: 48px;
+    row-gap: 28px;
+    flex-wrap: wrap;
+}
+}
